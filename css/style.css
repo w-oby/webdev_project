@@ -14,8 +14,12 @@ SOURCES:
 - https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:focus
 - https://askearn.org/page/10-tips-for-an-accessible-website
 - https://www.reddit.com/r/Frontend/comments/1705ybr/how_to_make_website_more_accessible/
-- 
-- 
+- https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+- https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Media_queries/Using
+- https://www.youtube.com/watch?v=yU7jJ3NbPdA
+- https://www.youtube.com/watch?v=QGb-W-c-gIM
+- https://web.dev/learn/design/media-queries
+-
 
  */
 
@@ -199,4 +203,43 @@ footer {
 /* To improve accessability for a11y */
 a:focus {
     outline: 2px solid #36D9AB;
+}
+
+/* Improved responsivity for mobile UI */
+@media (max-width: 768px) {
+
+    header {
+        padding: 20px;
+    }
+
+    section {
+        padding: 60px 20px;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .nav_right {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .hero {
+        max-width: 100%;
+    }
+
+    .project-grid {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 30px;
+    }
 }
