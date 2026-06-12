@@ -61,6 +61,11 @@ nav {
     color: #F0EEE9;
 }
 
+/* Override for CTA button color */
+.nav_right a.cta_button {
+    color: #2F2340;
+}
+
 section {
     padding: 80px 60px;
 }
