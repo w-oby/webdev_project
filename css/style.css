@@ -107,3 +107,10 @@ section {
 .hero p {
     margin-bottom: 20px;
 }
+
+.project-grid {
+    display: flex;
+    gap: 24px;
+    margin: 30px 0;
+    flex-wrap: wrap;
+}
