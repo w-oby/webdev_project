@@ -137,3 +137,33 @@ section {
     color: gray;
     font-style: italic;
 }
+
+/* Footer */
+footer {
+    background-color: #2B2B2B;
+    margin-top: 60px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 60px;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-column a {
+    color: #F0EEE9;
+    text-decoration: none;
+}
+
+/* Copyright footer */
+.footer-bottom {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
