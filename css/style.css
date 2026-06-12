@@ -72,6 +72,11 @@ nav {
     opacity: 0.75;
 }
 
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 section {
     padding: 80px 60px;
 }
