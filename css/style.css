@@ -10,6 +10,11 @@ SOURCES:
 - https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-radius
 - https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:hover
 - https://www.w3schools.com/CSSref/sel_hover.php
+- https://developer.mozilla.org/en-US/docs/Web/Accessibility
+- https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:focus
+- https://askearn.org/page/10-tips-for-an-accessible-website
+- https://www.reddit.com/r/Frontend/comments/1705ybr/how_to_make_website_more_accessible/
+- 
 - 
 
  */
@@ -28,13 +33,16 @@ body {
 
 header {
     padding: 20px 60px;
+    display: flex;
+    justify-content: center;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    max-width: 1200px;
+    width: 100%;
     background-color: #2B2B2B;
     padding: 16px 24px;
     border-radius: 12px;
@@ -186,4 +194,9 @@ footer {
     background-color: black;
     text-align: center;
     padding: 10px;
+}
+
+/* To improve accessability for a11y */
+a:focus {
+    outline: 2px solid #36D9AB;
 }
