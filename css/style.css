@@ -350,7 +350,7 @@ section ul li {
 section ul li a {
     color: #F0EEE9;
     text-decoration: none;
-    transition: color 0.2s ease
+    transition: color 0.2s ease;
 }
 
 section ul li a:hover {
@@ -360,7 +360,7 @@ section ul li a:hover {
 section p a {
     color: #36D9AB;
     text-decoration: none;
-    transition: opacity, color 0.2s ease;
+    transition: opacity 0.2s ease, color 0.2s ease;
 }
 
 section p a:hover {
@@ -369,15 +369,10 @@ section p a:hover {
 
 .dark-mode section p a {
     color: purple;
-    transition: 0.2s ease;
 }
 
 .dark-mode section p a:hover {
     color:#36D9AB;
-}
-
-section {
-    padding: 80px 60px;
 }
 
 section p {
