@@ -338,6 +338,7 @@ a:focus {
     background-color: gray;
 }
 
+/* About Me */
 section ul {
     margin-top: 20px;
     padding-left: 20px;
@@ -357,33 +358,11 @@ section ul li a:hover {
     color: #36D9AB;
 }
 
+/* Projects */
 section p a {
     color: #36D9AB;
     text-decoration: none;
     transition: opacity 0.2s ease, color 0.2s ease;
-}
-
-section p a:hover {
-    opacity: 75%;
-}
-
-.dark-mode section p a {
-    color: purple;
-}
-
-.dark-mode section p a:hover {
-    color:#36D9AB;
-}
-
-section p {
-    max-width: 700px;
-    line-height: 1.6;
-    margin-bottom: 20px;
-
-}
-
-section h1, section h2 {
-    margin-bottom: 20px;
 }
 
 .skills-list {
@@ -419,6 +398,29 @@ section h1, section h2 {
     background-color: #36D9AB;
 }
 
+section p a:hover {
+    opacity: 75%;
+}
+
+.dark-mode section p a {
+    color: purple;
+}
+
+.dark-mode section p a:hover {
+    color:#36D9AB;
+}
+
+section p {
+    max-width: 700px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+section h1, section h2 {
+    margin-bottom: 20px;
+}
+
+/* Contact */
 .socials-link {
     color: #36D9AB;
     text-decoration: none;
