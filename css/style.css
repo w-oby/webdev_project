@@ -282,21 +282,34 @@ a:focus {
 }
 
 .dark-mode {
-    background-color: #F0EEE9;
+    background-color: gainsboro;
     color: #2F2340;
 }
 
 .dark-mode nav {
-    background-color: white;
+    background-color: blanchedalmond;
 }
 
-.dark-mode .card {
-    background-color: white;
+.dark-mode a {
     color: #2F2340;
 }
 
+.dark-mode .cta_button {
+    background-color: #36D9AB;
+    color: #2F2340;
+}
+
+.dark-mode .card {
+    background-color: #2F2340;
+    color: white;
+}
+
+.dark-mode .tech {
+    color: #CFCBE6;
+}
+
 .dark-mode footer {
-    background-color: white;
+    background-color: blanchedalmond;
 }
 
 .dark-mode .footer-bottom {
