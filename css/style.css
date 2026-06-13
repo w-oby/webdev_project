@@ -39,6 +39,7 @@ SOURCES:
     box-sizing: border-box;
 }
 
+/* To allow smooth scrolling for project overview */
 html {
     scroll-behavior: smooth;
 }
@@ -125,7 +126,6 @@ section {
 }
 
 /* Primary CTA Button */
-/* Possibly reusable as separate ext file */
 .cta_button {
     background-color: #36D9AB;
     color: #2F2340;
@@ -357,6 +357,25 @@ section ul li a:hover {
     color: #36D9AB;
 }
 
+section p a {
+    color: #36D9AB;
+    text-decoration: none;
+    transition: opacity, color 0.2s ease;
+}
+
+section p a:hover {
+    opacity: 75%;
+}
+
+.dark-mode section p a {
+    color: purple;
+    transition: 0.2s ease;
+}
+
+.dark-mode section p a:hover {
+    color:#36D9AB;
+}
+
 section {
     padding: 80px 60px;
 }
@@ -391,6 +410,17 @@ section h1, section h2 {
 
 .skills-list li:hover {
     color:#2F2340;
+    background-color: #36D9AB;
+}
+.dark-mode .skills-list li {
+    background-color: blanchedalmond;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: background-color 0.8s ease;
+}
+
+.dark-mode .skills-list li:hover {
     background-color: #36D9AB;
 }
 
