@@ -39,6 +39,10 @@ SOURCES:
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #2F2340;
