@@ -386,4 +386,20 @@ section h1, section h2 {
     padding: 8px 12px;
     border-radius: 8px;
     font-size: 14px;
+    transition: color 0.8s ease;
+}
+
+.skills-list li:hover {
+    color:#2F2340;
+    background-color: #36D9AB;
+}
+
+.socials-link {
+    color: #36D9AB;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+}
+
+.socials-link:hover {
+    opacity: 75%;
 }
