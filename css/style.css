@@ -24,6 +24,11 @@ SOURCES:
 - https://www.youtube.com/watch?v=_gKEUYarehE
 - https://www.youtube.com/watch?v=sJDyEB1uWCw
 - https://fontawesome.com/
+- https://www.typescriptlang.org/docs/handbook/typescript-tooling-in-5-minutes.html
+- https://stackoverflow.com/questions/50469875/configuring-typescript-to-work-with-html-modules
+- https://www.w3schools.com/typescript/typescript_config.php
+- https://www.youtube.com/watch?v=ox98ylF1kSM
+- 
 - 
 
  */
@@ -274,4 +279,26 @@ a:focus {
 
 .theme-toggle:hover {
     background-color: #3A3A3A;
+}
+
+.dark-mode {
+    background-color: #F0EEE9;
+    color: #2F2340;
+}
+
+.dark-mode nav {
+    background-color: white;
+}
+
+.dark-mode .card {
+    background-color: white;
+    color: #2F2340;
+}
+
+.dark-mode footer {
+    background-color: white;
+}
+
+.dark-mode .footer-bottom {
+    background-color: gray;
 }
