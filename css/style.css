@@ -333,3 +333,22 @@ a:focus {
 .dark-mode .footer-bottom {
     background-color: gray;
 }
+
+section ul {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+section ul li a {
+    color: #F0EEE9;
+    text-decoration: none;
+    transition: color 0.2s ease
+}
+
+section ul li a:hover {
+    color: #36D9AB;
+}
