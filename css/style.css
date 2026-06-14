@@ -28,7 +28,7 @@ SOURCES:
 - https://stackoverflow.com/questions/50469875/configuring-typescript-to-work-with-html-modules
 - https://www.w3schools.com/typescript/typescript_config.php
 - https://www.youtube.com/watch?v=ox98ylF1kSM
-- 
+- https://dequeuniversity.com/rules/axe/4.11/button-name
 - 
 
  */
@@ -335,7 +335,11 @@ a:focus {
 }
 
 .dark-mode .footer-bottom {
-    background-color: gray;
+    background-color: lightsteelblue;
+}
+
+.dark-mode .footer-bottom p {
+    color: black;
 }
 
 /* About Me */
